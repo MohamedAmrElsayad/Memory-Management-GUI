@@ -78,5 +78,3 @@ By comparing the allocation results of both algorithms, users can evaluate their
 4.	Tanenbaum, A. S., & Woodhull, A. S. (2015). Operating Systems: Design and Implementation (3rd ed.). Pearson. (Chapter 3: Memory Management)
 
 5.	Abraham, S., & Peter, M. (2014). Operating Systems: A Concept-Based Approach. Oxford University Press. (Chapter 5: Memory Management)
-
-6.	Rajku
