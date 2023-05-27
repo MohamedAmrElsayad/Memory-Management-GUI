@@ -5,7 +5,7 @@ This C++ program demonstrates two memory allocation algorithms: Next Fit and Bud
 The Next Fit algorithm searches for the next available memory block starting from the last assigned block and wraps around to the beginning if necessary. It allocates a process to the first block that can accommodate its size.
 The Buddy System algorithm uses a binary tree data structure to represent the memory blocks. It starts with a single block of size equal to the nearest power of 2 greater than the total number of memory blocks. When a process needs to be allocated, the algorithm splits larger blocks into two equal-sized buddy blocks until a suitable block size is reached.
 
-Code
+### Code
 This code demonstrates two memory allocation algorithms: Next Fit and Buddy System. Here is a breakdown of the code:
 
 •	The nextFit function implements the Next Fit algorithm. It takes the block sizes (blockSize array) and process sizes (processSize array) as inputs and allocates memory blocks to processes based on their sizes. It uses a while loop to search for a suitable block for each process, and it updates the allocation array accordingly. The allocation details are then printed.
@@ -15,14 +15,14 @@ This code demonstrates two memory allocation algorithms: Next Fit and Buddy Syst
 •	The main function is the entry point of the program. It prompts the user to enter the number and sizes of memory blocks, as well as the number and sizes of processes. It then calls the nextFit and buddySystem functions to perform memory allocation using the provided inputs.
 The code calculates memory allocation based on the Next Fit and Buddy System algorithms, and it displays the allocation details for each process.
  
-      Objectives
+ ### Objectives
 •	Implement the Next Fit algorithm for memory allocation.
 •	Implement the Buddy System algorithm for memory allocation.
 •	Take user input for the number of memory blocks and their sizes.
 •	Take user input for the number of processes and their sizes.
 •	Allocate memory blocks to processes using the Next Fit algorithm and Buddy System algorithm.
 •	Display the allocation details for each process, including the process number, process size, and allocated block number (or "Not Allocated" if no block is allocated).
-Result
+### Result
 
 The Next Fit and Buddy System memory allocation algorithms were implemented and tested using a small example. The following results were obtained:
 Test Input:
@@ -63,12 +63,12 @@ By comparing the allocation results of both algorithms, users can evaluate their
 
 
 
-Tools
+### Tools
  1.QT Designer
 2.C++
 3.Linux ubuntu
 
-Reference
+### Reference
 1.	Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). Operating System Concepts (10th ed.). Wiley. (Chapter 9: Memory Management)
 
 2.	Tanenbaum, A. S., & Bos, H. (2014). Modern Operating Systems (4th ed.). Pearson. (Chapter 3: Memory Management)
