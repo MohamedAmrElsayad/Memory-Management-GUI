@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstring>
+#include <cmath>
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+#include "ui_mainwindow.h"
+#include <QMessageBox>
+#include <QInputDialog>
+using namespace std;
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include <QMainWindow>
